@@ -21,6 +21,7 @@ button.addEventListener('click', ()=> {
         input.value = ""
     } else {
         alert("Veuillez saisir au moins 5 caractères");
+        input.value = ""
     }
 })
 

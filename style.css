@@ -24,10 +24,10 @@ h1 {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 435px) {
     #write-task {
         /* width: 275px;  */
-        width: 93%; 
+        width: 90%; 
     }
 }
 
@@ -70,14 +70,14 @@ button:hover {
 
 @media screen and (max-width: 768px) {
     #list {
-        height: 350px;
+        height: 370px;
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 435px) {
     #list {
         /* width: 275px;  */
-        width: 93%; 
+        width: 90%; 
     }
 }
 
