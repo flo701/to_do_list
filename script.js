@@ -6,12 +6,6 @@ var ul = document.querySelector('ul')
 button.addEventListener('click', ()=> {
     let task = input.value;
 
-    if (task=="Minimum 5 caractères") {
-        input.value=""
-        input.style.color="black"
-        return
-    } 
-
     if (task.length > 4) {
         input.style.color="black"
         let li = document.createElement('li')
@@ -26,8 +20,7 @@ button.addEventListener('click', ()=> {
 
         input.value = ""
     } else {
-        input.style.color="red"
-        input.value="Minimum 5 caractères"
+        alert("Veuillez saisir au moins 5 caractères");
     }
 })
 
